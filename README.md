@@ -39,9 +39,19 @@ This project aims to:
 
 ## 📺 Demo
 
-### 📄 WIP
+### WIP
 
-Work in progress - To be completed during the mid and final evaluation
+Work in progress
+<!-- To be completed during the mid and final evaluation -->
+
+## 📄 Work Plan
+
+There are several plan that I created for this projects,
+
+1. Create a starter composite action to group bottles result ([Done](https://github.com/Homebrew/actions/pull/289))
+2. Apply the starter composite action to homebrew-core github action ([In-Progress](https://github.com/Homebrew/homebrew-core/pull/106155))
+3. Create a Yaml Linter Action (or job) to lint all github action on Homebrew repository. It will triggered if there's any contribution on the repository's Action (Not Yet Started)
+4. Expand the starter composite action based on discussion (Not Yet Started)
 
 ## 🚀 Contributions
 
@@ -51,7 +61,8 @@ Work in progress - To be completed during the mid and final evaluation
 
 | PR Link   | Description  | Status | 
 | :-----------: | :------------------------------------:| :------:|
-| WIP | WIP | WIP
+| [bottles-failure-and-output](https://github.com/Homebrew/actions/pull/289) | Create a composite action to group outputs after creating a bottles. | <span style="color:#8957e5">Merged</span>
+| [Update github actions to use composite action created before](https://github.com/Homebrew/homebrew-core/pull/106155) | Modify the github action to use the composite action I created on previous [PR](https://github.com/Homebrew/actions/pull/289). |<span style="color:#238636">Open</span>|
 
 </div>
 
