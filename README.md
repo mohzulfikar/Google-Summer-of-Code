@@ -49,8 +49,8 @@ Work in progress
 There are several plan that I created for this projects,
 
 1. Create a starter composite action to group bottles result ([Done](https://github.com/Homebrew/actions/pull/289))
-2. Apply the starter composite action to homebrew-core github action ([In-Progress](https://github.com/Homebrew/homebrew-core/pull/106155))
-3. Create a Yaml Linter Action (or job) to lint all github action on Homebrew repository. It will triggered if there's any contribution on the repository's Action (Not Yet Started)
+2. Apply the starter composite action to homebrew-core github action ([In-Progress](https://github.com/Homebrew/homebrew-core/pull/106155)) (Working on fix in my [fork repository](https://github.com/mohzulfikar-orgz/homebrew-core-testing/tree/dispatch-action-test))
+3. Create a Yaml Linter Action (or job) to lint all github action on Homebrew repository. It will triggered if there's any contribution on the repository's Action (Not Yet Started) (Based on Research, I plan to use [Super Linter](https://github.com/github/super-linter) or just the [yamllint](https://github.com/adrienverge/yamllint))
 4. Expand the starter composite action based on discussion (Not Yet Started)
 
 ## 🚀 Contributions
