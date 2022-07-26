@@ -5,13 +5,17 @@ This week-by-week timeline provides a rough guideline of how the project will be
 ## Pre-Project Work Period
 
 Explore more about Homebrew and start contributing more on simple Issues.
+
 Learn more about Ruby and GitHub Action, especially for the composite action method that will be used on the projects.
 
 ## Community Bonding Period (May 21 – June 13)
 
 Update an Issues about Deduplicating GitHub Action, explaining about the current findings and open a discussion with other maintainers.
+
 Reach out to the mentors and Ask some questions about the Homebrew community.
+
 Keep in touch with mentors and actively discuss the project but not limited to specific issues.
+
 Finalise the starting point of the project and ask the mentor thoughts about the starting point of the projects and set the goals.
 
 ## Project Work Period
@@ -37,9 +41,13 @@ Open up a PR and test the modified action.
 
 Explore other repositories that could adapt composite actions or discuss other possible follow-up projects with mentors.
 
+Update Project Documentation and prepare for midterm evaluation.
+
 ### July 25 – August 7
 
-Keep in touch with them mentors while continuing to implement composite actions or fixing bug caused by the actions.
+Keep in touch with mentors while continuing to implement composite actions or fixing bug caused by the actions.
+
+Fill out midterm evaluation of the projects.
 
 During this period, I will do rigorous testing in the CI and check if there’s any setup that would make the CI fail.
 
@@ -53,9 +61,18 @@ Continue to do rigorous checks to the actions syntax, this could also be a buffe
 
 ### August 15 - August 21
 
-Continue yaml linter projects, if there's some error or bug that needs to be fixed.
+Continue yaml linter projects and fix it if there's some error or bug that needs to be solved.
+
+Improve composite action from other maintainer feedbacks and open new PR if necessary.
+
+Prepare for final evaluation.
 
 ### August 22 – September 6
 
-For Documentation update on the project
+Documentation update on the project
+
+Continue to improve or fix errors (if any) created by PR created on the last week (improving composite action).
+
+Fill out final evaluation of the projects.
+
 Discuss about additional/ongoing issues on Homebrew with mentors
