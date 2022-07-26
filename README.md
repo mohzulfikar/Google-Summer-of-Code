@@ -53,7 +53,7 @@ There are several plan that I created for this projects,
 3. Create a Yaml Linter Action (or job) to lint all github action on Homebrew repository. It will triggered if there's any contribution on the repository's Action (Not Yet Started) (Based on Research, I plan to use [Super Linter](https://github.com/github/super-linter) or just the [yamllint](https://github.com/adrienverge/yamllint))
 4. Expand the starter composite action based on discussion (Not Yet Started)
 
-| Additionally, a detailed timeline can be found on [TIMELINE.md](TIMELINE.md)
+> Additionally, a detailed timeline can be found on [TIMELINE.md](TIMELINE.md)
 
 ## 🚀 Contributions
 
