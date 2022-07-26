@@ -22,57 +22,43 @@ Finalise the starting point of the project and ask the mentor thoughts about the
 
 ### June 14 – June 26
 
-Start modifying the actions with creating the composite action on Homebrew’s actions repository.
-Discuss with mentors about the changes and revise it when necessary.
+- Start modifying the actions with creating the composite action on Homebrew’s actions repository.
+- Discuss with mentors about the changes and revise it when necessary.
 
 ### June 27 – July 10
 
-Implementing the composite actions created earlier and open up a PR and merge to homebrew action repository.
-
-Test the changes on the modified repository by either running a dummy PR or other methods.
-
-Discuss with mentors about the changes and revise it when necessary.
+- Implementing the composite actions created earlier and open up a PR and merge to homebrew action repository.
+- Test the changes on the modified repository by either running a dummy PR or other methods.
+- Discuss with mentors about the changes and revise it when necessary.
 
 ### July 11 – July 24
 
-Use the composite actions created earlier to other projects across Homebrew and do a quick test to the changes.
-
-Open up a PR and test the modified action.
-
-Explore other repositories that could adapt composite actions or discuss other possible follow-up projects with mentors.
-
-Update Project Documentation and prepare for midterm evaluation.
+- Use the composite actions created earlier to other projects across Homebrew and do a quick test to the changes.
+- Open up a PR and test the modified action.
+- Explore other repositories that could adapt composite actions or discuss other possible follow-up projects with mentors.
+- Update Project Documentation and prepare for midterm evaluation.
 
 ### July 25 – August 7
 
-Keep in touch with mentors while continuing to implement composite actions or fixing bug caused by the actions.
-
-Fill out midterm evaluation of the projects.
-
-During this period, I will do rigorous testing in the CI and check if there’s any setup that would make the CI fail.
-
-Discuss openly with other maintainer about adding yaml linter to homebrew repository (projects)
+- Keep in touch with mentors while continuing to implement composite actions or fixing bug caused by the actions.
+- Fill out midterm evaluation of the projects.
+- During this period, I will do rigorous testing in the CI and check if there’s any setup that would make the CI fail.
+- Discuss openly with other maintainer about adding yaml linter to homebrew repository (projects)
 
 ### August 8 – August 14
 
-Work on yaml linter projects and open up PR if other maintainer approve the idea.
-
-Continue to do rigorous checks to the actions syntax, this could also be a buffer period for any unpredictable delay.
+- Work on yaml linter projects and open up PR if other maintainer approve the idea.
+- Continue to do rigorous checks to the actions syntax, this could also be a buffer period for any unpredictable delay.
 
 ### August 15 - August 21
 
-Continue yaml linter projects and fix it if there's some error or bug that needs to be solved.
-
-Improve composite action from other maintainer feedbacks and open new PR if necessary.
-
-Prepare for final evaluation.
+- Continue yaml linter projects and fix it if there's some error or bug that needs to be solved.
+- Improve composite action from other maintainer feedbacks and open new PR if necessary.
+- Prepare for final evaluation.
 
 ### August 22 – September 6
 
-Documentation update on the project
-
-Continue to improve or fix errors (if any) created by PR created on the last week (improving composite action).
-
-Fill out final evaluation of the projects.
-
-Discuss about additional/ongoing issues on Homebrew with mentors
+- Documentation update on the project
+- Continue to improve or fix errors (if any) created by PR created on the last week (improving composite action).
+- Fill out final evaluation of the projects.
+- Discuss about additional/ongoing issues on Homebrew with mentors
