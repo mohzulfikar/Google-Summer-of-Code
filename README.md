@@ -49,7 +49,12 @@ Work in progress
 There are several plan that I created for this projects,
 
 1. Create a starter composite action to group bottles result ([Done](https://github.com/Homebrew/actions/pull/289))
-2. Apply the starter composite action to homebrew-core github action ([In-Progress](https://github.com/Homebrew/homebrew-core/pull/106155)) (Working on fix in my [fork repository](https://github.com/mohzulfikar-orgz/homebrew-core-testing/tree/dispatch-action-test))
+2. Apply the starter composite action to homebrew-core github action ([In-Progress](https://github.com/Homebrew/homebrew-core/pull/106155))
+   - Working on fix in my [fork repository](https://github.com/mohzulfikar-orgz/homebrew-core-testing/tree/dispatch-action-test)
+   - The cause of the failing CI on Linux is because of custom workdir defined on the job matrix.
+   - Workaround for this is to modify the composite action to accept inputs that states the working directory from main github action.
+   - I opened up a [Pull Request](https://github.com/Homebrew/actions/pull/291) to add this functionality on the [actions repository](https://github.com/Homebrew/actions).
+   - After the composite action change had been merged we could direcly use that as a replacement for current repeatable CI steps.
 3. Create a Yaml Linter Action (or job) to lint all github action on Homebrew repository. It will triggered if there's any contribution on the repository's Action (Not Yet Started) (Based on Research, I plan to use [Super Linter](https://github.com/github/super-linter) or just the [yamllint](https://github.com/adrienverge/yamllint))
 4. Expand the starter composite action based on discussion (Not Yet Started)
 
@@ -65,6 +70,7 @@ There are several plan that I created for this projects,
 | :-----------: | :------------------------------------:| :------:|
 | [bottles-failure-and-output](https://github.com/Homebrew/actions/pull/289) | Create a composite action to group outputs after creating a bottles. | <span style="color:#8957e5">Merged</span>
 | [Update github actions to use composite action created before](https://github.com/Homebrew/homebrew-core/pull/106155) | Modify the github action to use the composite action I created on previous [PR](https://github.com/Homebrew/actions/pull/289). |<span style="color:#238636">Open</span>|
+| [Update bottles failure and output composite action](https://github.com/Homebrew/actions/pull/291) | I propose the approach to use inputs to make the composite action runs on custom workdir. This will solve the failing CI on this [PR](https://github.com/Homebrew/actions/pull/289) | <span style="color:#238636">Open</span>
 
 </div>
 
