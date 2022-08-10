@@ -55,7 +55,13 @@ There are several plan that I created for this projects,
    - Workaround for this is to modify the composite action to accept inputs that states the working directory from main github action.
    - I opened up a [Pull Request](https://github.com/Homebrew/actions/pull/291) to add this functionality on the [actions repository](https://github.com/Homebrew/actions).
    - After the composite action change had been merged we could direcly use that as a replacement for current repeatable CI steps.
-3. Create a Yaml Linter Action (or job) to lint all github action on Homebrew repository. It will triggered if there's any contribution on the repository's Action (Not Yet Started) (Based on Research, I plan to use [Super Linter](https://github.com/github/super-linter) or just the [yamllint](https://github.com/adrienverge/yamllint))
+3. Create a Yaml Linter Action (or job) to lint all github action on Homebrew repository. It will triggered if there's any contribution on the repository's Action (In-Progress)
+   - Based on Research, Validating Github Action is not just as simple as using any existing yaml linter. Github Action have special format and schema for their own yaml.
+   - The Schema of common custom yaml could be found on [schemastore](https://www.schemastore.org/json/) including [Github Action yaml schema](https://json.schemastore.org/github-action.json).
+   - Based on Research, I found a possible linters that could lint by using the schema on [schemastore](https://www.schemastore.org/json/). The possible linters are [v8r](https://github.com/chris48s/v8r) (NPM Packages). I need to research more on using this linters and creating a configurations locally.
+   - After that, I'll do the testing on my fork repository of [Homebrew/actions](https://github.com/mohzulfikar/actions-homebrew).
+   - Before creating a PR, should we open a new [Issue](https://github.com/Homebrew/actions/issues) on action repository?
+   - We'll see the result of linting on my fork repository and open a PR to discuss if there's any feedback regarding the errors found on linted file(s).
 4. Expand the starter composite action based on discussion (Not Yet Started)
 
 > Additionally, a detailed timeline can be found on [TIMELINE.md](TIMELINE.md)
