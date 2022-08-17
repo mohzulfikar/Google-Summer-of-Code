@@ -62,7 +62,13 @@ There are several plan that I created for this projects,
    - After that, I'll do the testing on my fork repository of [Homebrew/actions](https://github.com/mohzulfikar/actions-homebrew).
    - Before creating a PR, should we open a new [Issue](https://github.com/Homebrew/actions/issues) on action repository?
    - We'll see the result of linting on my fork repository and open a PR to discuss if there's any feedback regarding the errors found on linted file(s).
-4. Expand the starter composite action based on discussion (Not Yet Started)
+4. Expand the starter composite action based on discussion.
+   - Is it possible to expand the current composite action to support common pattern of `touch`, `cat`, and `rm`?
+   - Expand it to include the `brew test-bot` with custom params.
+   - Add inputs to choose which file should be applied the operations (`touch`, `cat`, `rm`)
+   - Apply on [homebrew-core](https://github.com/Homebrew/homebrew-core) and [homebrew-test-bot](https://github.com/Homebrew/homebrew-test-bot/blob/9c3a37b30e2db946c5da79b5d2f5d1c57e9129ae/.github/workflows/tests.yml) repository.
+5. Create second composite action.
+   - Grouping the upload, delete, count bottles, and post cleanup steps.
 
 > Additionally, a detailed timeline can be found on [TIMELINE.md](TIMELINE.md)
 
