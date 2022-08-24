@@ -48,17 +48,34 @@ Finalise the starting point of the project and ask the mentor thoughts about the
 ### August 8 – August 14
 
 - Work on yaml linter projects and open up PR if other maintainer approve the idea.
+- Search potential second and third composite action project
 - Continue to do rigorous checks to the actions syntax, this could also be a buffer period for any unpredictable delay.
 
 ### August 15 - August 21
 
-- Continue yaml linter projects and fix it if there's some error or bug that needs to be solved.
-- Improve composite action from other maintainer feedbacks and open new PR if necessary.
-- Prepare for final evaluation.
+- Do a rigorous testing on second and third composite action project
+- Open new PR for the second composite action (about grouping cache steps and privide some custom behaviour).
+- Improve new composite action from other maintainer feedbacks and open new PR if necessary.
 
 ### August 22 – September 6
 
 - Documentation update on the project
+- Implement second composite action to several homebrew repositories.
 - Continue to improve or fix errors (if any) created by PR created on the last week (improving composite action).
+- Open new PR for the third composite action.
+
+### September 7 - September 13
+
 - Fill out final evaluation of the projects.
+- Implement third composite action to several homebrew repositories.
 - Discuss about additional/ongoing issues on Homebrew with mentors
+
+### September 14 - September 20
+
+- Final evaluation
+- Continue unfinished composite action
+- Continue yaml linter projects and fix it if there's some error or bug that needs to be solved.
+
+### September 2! - Beyond
+
+- Continue unfinished composite action implementation and side project idea found during GSoC

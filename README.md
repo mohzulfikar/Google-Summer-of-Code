@@ -68,6 +68,9 @@ There are several plan that I created for this projects,
    - Add inputs to choose which file should be applied the operations (`touch`, `cat`, `rm`)
    - Apply on [homebrew-core](https://github.com/Homebrew/homebrew-core) and [homebrew-test-bot](https://github.com/Homebrew/homebrew-test-bot/blob/9c3a37b30e2db946c5da79b5d2f5d1c57e9129ae/.github/workflows/tests.yml) repository.
 5. Create second composite action.
+   - We can group the "cache" step from several repositories and provide some custom behaviour like the "unlink" and "relink" step or the cleaning step that will be run on the CI workflow.
+   - Several example of the workflow can be found on [cache.yml](https://github.com/mohzulfikar-org/homebrew-cask/blob/master/.github/workflows/cache.yml) or [ci.yml](https://github.com/mohzulfikar-org/homebrew-cask/blob/master/.github/workflows/ci.yml) on the homebrew-cask repository. We can also see it on [dispatch-build-bottle.yml](https://github.com/Homebrew/homebrew-core/blob/master/.github/workflows/dispatch-build-bottle.yml) on homebrew-core repository.
+6. Create third composite action.
    - Grouping the upload, delete, count bottles, and post cleanup steps.
 
 > Additionally, a detailed timeline can be found on [TIMELINE.md](TIMELINE.md)
@@ -81,8 +84,9 @@ There are several plan that I created for this projects,
 | PR Link   | Description  | Status | 
 | :-----------: | :------------------------------------:| :------:|
 | [bottles-failure-and-output](https://github.com/Homebrew/actions/pull/289) | Create a composite action to group outputs after creating a bottles. | <span style="color:#8957e5">Merged</span>
-| [Update github actions to use composite action created before](https://github.com/Homebrew/homebrew-core/pull/106155) | Modify the github action to use the composite action I created on previous [PR](https://github.com/Homebrew/actions/pull/289). |<span style="color:#238636">Open</span>|
-| [Update bottles failure and output composite action](https://github.com/Homebrew/actions/pull/291) | I propose the approach to use inputs to make the composite action runs on custom workdir. This will solve the failing CI on this [PR](https://github.com/Homebrew/actions/pull/289) | <span style="color:#238636">Open</span>
+| [Update github actions to use composite action created before](https://github.com/Homebrew/homebrew-core/pull/106155) | Modify the github action to use the composite action I created on previous [PR](https://github.com/Homebrew/actions/pull/289). | <span style="color:#8957e5">Merged</span> |
+| [Update bottles failure and output composite action](https://github.com/Homebrew/actions/pull/291) | I propose the approach to use inputs to make the composite action runs on custom workdir. This will solve the failing CI on this [PR](https://github.com/Homebrew/actions/pull/289) | <span style="color:#8957e5">Merged</span>
+| [setup-gems-cache: Add composite action for setup gems cache](https://github.com/Homebrew/actions/pull/291) | Several action workflow on the homebrew repository have common steps for setup and checking for gems cache. Why don't we group this together and make composite action out of it? | <span style="color:#238636">Open</span>
 
 </div>
 
@@ -95,6 +99,7 @@ There are several plan that I created for this projects,
 | :-----------: | :------------------------------------:| :------:|
 | [ISSUE #44](https://github.com/Homebrew/gsoc/issues/44) on [GSoC](https://github.com/Homebrew/gsoc) | [Project Submission] Deduplicate and cleanup GitHub Actions | WIP |
 | [ISSUE #11101](https://github.com/Homebrew/brew/issues/11101) on [brew](https://github.com/Homebrew/brew) | [IMPROVEMENT] Deduplicate GitHub Actions Usage | WIP |
+| [ISSUE #293](https://github.com/Homebrew/actions/issues/293) on [actions](https://github.com/Homebrew/actions) | [IMPROVEMENT] Linter for checking github action yaml syntax | WIP |
 
 </div>
     
