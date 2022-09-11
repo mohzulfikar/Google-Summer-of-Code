@@ -13,7 +13,6 @@
     <code> 
         <a href="#-project-abstract">Project Summary</a>&nbsp;&nbsp;&nbsp;
         <a href="#-deliverables">Deliverables</a>&nbsp;&nbsp;&nbsp;
-        <a href="#-demo">Demo</a>&nbsp;&nbsp;&nbsp;
         <a href="#-contributions">Contributions</a>&nbsp;&nbsp;&nbsp;
         <a href="#-mentors">Mentors</a>&nbsp;&nbsp;&nbsp;
     </code>
@@ -36,13 +35,6 @@ This project aims to:
 - Make more clear github action for new contributors, by using more descriptive names for action steps instead of multiple runs on each action step.
 
 <!-- **All of the above deliverables were completed within the GSoC period. Yay! 🎉** -->
-
-## 📺 Demo
-
-### WIP
-
-Work in progress
-<!-- To be completed during the mid and final evaluation -->
 
 ## 📄 Work Plan
 
