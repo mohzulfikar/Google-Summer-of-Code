@@ -76,6 +76,6 @@ Finalise the starting point of the project and ask the mentor thoughts about the
 - Continue unfinished composite action
 - Continue yaml linter projects and fix it if there's some error or bug that needs to be solved.
 
-### September 2! - Beyond
+### September 21 - Beyond
 
 - Continue unfinished composite action implementation and side project idea found during GSoC

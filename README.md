@@ -87,6 +87,7 @@ There are several plan that I created for this projects,
 | [Update github actions to use composite action created before](https://github.com/Homebrew/homebrew-core/pull/106155) | Modify the github action to use the composite action I created on previous [PR](https://github.com/Homebrew/actions/pull/289). | <span style="color:#8957e5">Merged</span> |
 | [Update bottles failure and output composite action](https://github.com/Homebrew/actions/pull/291) | I propose the approach to use inputs to make the composite action runs on custom workdir. This will solve the failing CI on this [PR](https://github.com/Homebrew/actions/pull/289) | <span style="color:#8957e5">Merged</span>
 | [setup-gems-cache: Add composite action for setup gems cache](https://github.com/Homebrew/actions/pull/291) | Several action workflow on the homebrew repository have common steps for setup and checking for gems cache. Why don't we group this together and make composite action out of it? | <span style="color:#238636">Open</span>
+| [upload-and-cleanup-bottle-result: Add composite action for uploading and cleaning up bottle](https://github.com/Homebrew/actions/pull/304) | On [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core), the upload and cleaning up bottle results are repetitive in several workflows with only minor differences ([tests.yml](https://github.com/Homebrew/homebrew-core/blob/master/.github/workflows/tests.yml), [dispatch-build-bottle.yml](https://github.com/Homebrew/homebrew-core/blob/master/.github/workflows/dispatch-build-bottle.yml), [dispatch-rebottle.yml](https://github.com/Homebrew/homebrew-core/blob/master/.github/workflows/dispatch-rebottle.yml)). I think, we could group the steps into the composite action instead. | <span style="color:#238636">Open</span>
 
 </div>
 
@@ -97,7 +98,7 @@ There are several plan that I created for this projects,
     
 | Issue Link   | Description  | Status | 
 | :-----------: | :------------------------------------:| :------:|
-| [ISSUE #44](https://github.com/Homebrew/gsoc/issues/44) on [GSoC](https://github.com/Homebrew/gsoc) | [Project Submission] Deduplicate and cleanup GitHub Actions | WIP |
+| [ISSUE #44](https://github.com/Homebrew/gsoc/issues/44) on [GSoC](https://github.com/Homebrew/gsoc) | [Project Submission] Deduplicate and cleanup GitHub Actions | Done |
 | [ISSUE #11101](https://github.com/Homebrew/brew/issues/11101) on [brew](https://github.com/Homebrew/brew) | [IMPROVEMENT] Deduplicate GitHub Actions Usage | WIP |
 | [ISSUE #293](https://github.com/Homebrew/actions/issues/293) on [actions](https://github.com/Homebrew/actions) | [IMPROVEMENT] Linter for checking github action yaml syntax | WIP |
 
